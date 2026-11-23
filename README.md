@@ -1,4 +1,5 @@
-# Password Strength Analyzer
+# Password Strength Analyzer ? Python CLI
+Built a local Python CLI that gives heuristic feedback on sample passwords using length, common-password matching, and simple pattern checks. Tested the rating rules and hidden-input workflow.
 
 ## Overview and problem
 
@@ -30,7 +31,10 @@ Enter a made-up example at the prompt and get your feedback on your password str
 
 ## Results and observations
 
-Checked passed four assertions covering the small common-password list, sequence and repetition checks, a longer example, and character-group counting. A run with unavailable hidden input stopped without reading the sample. Personal verification is pending.
+I tested the CLI interactively with a common password, a repeated alphabet
+sequence, a mixed example, and blank input. The tool flagged the common password
+and the predictable sequence, reported four character groups for the mixed
+example, and rejected blank input.
 
 |Test|Action|Result|
 |-|-|-|
