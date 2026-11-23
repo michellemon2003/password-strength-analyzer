@@ -47,3 +47,6 @@ The rules use a tiny common-password list and simple character sequences. A pred
 
 The implementation illustrates how to separate a pure rating function from terminal input. Future improvements could expand the local pattern checks and add regression tests for Unicode and rule boundaries.
 
+### Development Acknowledgment
+
+This project was developed as part of my independent learning in cybersecurity and Python, with AI assistance throughout the development process. My involvement included reviewing and understanding the implementation, testing the application, troubleshooting issues, and documenting what I learned.
